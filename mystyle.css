@@ -1,0 +1,29 @@
+.listSkill:hover{
+	
+	background-color:blue;
+	font-size:1cm;
+	
+	
+}
+/*鼠標移動到上面會有特效*/
+::selection{
+	color:white;
+	background-color:purple;
+	
+	
+}
+/*反白會有特效*/
+p::first-line{
+	color: red;
+	font-size: X-large;
+	
+	
+}
+/*第一行字有特效*/
+p::first-letter{
+	color: orange;
+	font-size: X-large;
+	
+	
+}
+/*第一個字有特效*/
